@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Speed arcs (speedometer trail behind swan) -->
+    <path
+        android:pathData="M28,68 A28,28 0 1,1 80,68"
+        android:strokeColor="#3300E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M34,64 A22,22 0 1,1 74,64"
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M40,60 A16,16 0 1,1 68,60"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Aerodynamic Swan Body & Wings in Flight -->
+    <!-- Wing 1 -->
+    <path
+        android:pathData="M54,42 C62,32 76,28 82,24 C78,34 70,44 58,48 Z"
+        android:fillColor="#00E5FF" />
+    <!-- Wing 2 (back wing) -->
+    <path
+        android:pathData="M50,44 C44,36 34,32 26,28 C34,36 42,44 48,48 Z"
+        android:fillColor="#80D8FF" />
+    <!-- Swan neck, head and beak -->
+    <path
+        android:pathData="M54,64 C56,58 58,50 56,44 C55,40 57,34 60,32 C62,31 65,32 67,34 C68,35 73,34 76,33 C73,36 70,38 67,38 C64,44 60,54 58,64 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Beak accent in warm amber/orange -->
+    <path
+        android:pathData="M67,34 L76,33 C73,36 70,37 67,37 Z"
+        android:fillColor="#FF9100" />
+    <!-- Sleek Swan lower body & jet pulse -->
+    <path
+        android:pathData="M48,58 C52,66 56,66 60,58 C56,60 52,60 48,58 Z"
+        android:fillColor="#B2EBF2" />
+    
+    <!-- Speed pulse particles -->
+    <path
+        android:pathData="M38,72 L32,74 M46,75 L44,80 M62,75 L64,80 M70,72 L76,74"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

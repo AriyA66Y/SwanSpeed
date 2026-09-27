@@ -1,0 +1,6 @@
+{
+  "name": "SwanSpeed",
+  "description": "High-performance internet speed test with real-time network stability graphs, ping sweep server selection, test history, and visual result sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
